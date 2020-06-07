@@ -50,9 +50,6 @@ const partials = {
   ),
   pluginOptimizeCssAssets: require(
     './lib/plugin.optimize-css-assets.js'
-  ),
-  pluginPurgecss: require(
-    './lib/plugin.purgecss.js'
   )
 }
 

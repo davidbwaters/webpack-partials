@@ -31,5 +31,9 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "test:dev": "webpack-dev-server --mode development --config test/webpack.config.js",
+    "test:prod": "webpack --mode production --config test/webpack.config.js"
   }
 }
