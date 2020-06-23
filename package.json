@@ -1,6 +1,6 @@
 {
   "name": "@davidbwaters/webpack-partials",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Partial webpack configs for use with webpack-merge.",
   "main": "index.js",
   "repository": "https://github.com/davidbwaters/webpack-partials",
