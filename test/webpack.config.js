@@ -23,9 +23,7 @@ const common = merge.smart(
   partials.loaderFontsFile(),
   partials.loaderSvgFile(),
   partials.loaderVideoFile(),
-  partials.pluginHtml({
-    template: './index.html'
-  }),
+  partials.pluginHtml(),
   partials.pluginBundleAnalyzer()
 )
 

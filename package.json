@@ -1,6 +1,6 @@
 {
   "name": "@davidbwaters/webpack-partials",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Partial webpack configs for use with webpack-merge.",
   "main": "index.js",
   "repository": "https://github.com/davidbwaters/webpack-partials",
@@ -34,6 +34,7 @@
   },
   "scripts": {
     "test:dev": "webpack-dev-server --mode development --config test/webpack.config.js",
-    "test:prod": "webpack --mode production --config test/webpack.config.js"
+    "test:prod": "webpack --mode production --config test/webpack.config.js",
+    "deploy": "yarn publish &&git add -A . && git push"
   }
 }

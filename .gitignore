@@ -1,6 +1,9 @@
 # Test Dist
 test/dist
 
+# macOS
+.DS_Store
+
 # Logs
 logs
 *.log
