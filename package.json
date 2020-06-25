@@ -35,6 +35,6 @@
   "scripts": {
     "test:dev": "webpack-dev-server --mode development --config test/webpack.config.js",
     "test:prod": "webpack --mode production --config test/webpack.config.js",
-    "deploy": "yarn publish && git add -A . && git commit . && git push"
+    "deploy": "yarn publish && git commit -a -m . && git push"
   }
 }
